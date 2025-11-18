@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AnoFabricacaoValido {
-    String message() default "Carro muito antigo";
+    String message() default "Carro antigo";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }

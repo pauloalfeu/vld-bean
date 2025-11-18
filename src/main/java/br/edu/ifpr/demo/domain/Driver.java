@@ -17,7 +17,7 @@ public class Driver {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     
-    @NotBlank(message = "Digita um nome aí")
+    @NotBlank(message = "Digita um nome")
     String name;
     LocalDate birthDate;
 
